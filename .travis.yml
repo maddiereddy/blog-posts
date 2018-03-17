@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: uwYIGUrruSSSmDQS6eQl1amb6RE7KOgoSK+iSFTZDSyyww2IUxj3BP4JMYCIVWRROPvKOk59z0x0f9wNjYnKpU+QnX2i621XtcN+9L2mI7lIvkNjuefWFuJ6cTfL/SEJPg0HDSEbAQaXFMW54unGQDGVrrPgYA/CUP4TCz5mFChijV5z9lp0L/3ebVUDYKcRsoHefe8aLQrgwEpKR/PI2qutvlYtTcx90A3G8h5Chg2b29YckbwucMZqQcpSneg0kACF1U8dgXi+pNil5L5pRJnelzzVz06BdkwjVe/vnPhvVDE9q/AeF3g/OqCKJ3ULNcDxY3wa0qK0opSZMdqd/kr/mbmgmhTk60FxQK0JKmJkVyHCn7XiHVsycT129WYM5ROKzry8KjvSiGegFRIAHTpt2o2bN6/wxWpMCkNQ9Ap1hLGNfCFNDtpE8AFkEWxUZAVyVkQGaFSdKuGier4LjyX/zHsbjwoGFvkNHlYc8AbKyL4PxUipKuX/+O9kYymfDYKOAzeds/WaGqtx1weg/gDn/hdVftRUSZbafKpRXYBBZsPXiK8UT7c1Wx2eBfHf7K+mVwLNvhG9uXz4GFkH5zb5YS3kkzljGqATRhGzM3nmZy2ez3h6sVLRQ6aLMGtLBCq12uixtQrybuCXY91XxmwIQcL1rNVRWfXXeToDBzA=
+  app: polar-shore-60691
+  on:
+    repo: maddiereddy/blog-posts
