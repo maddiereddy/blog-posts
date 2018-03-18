@@ -26,7 +26,7 @@ app.use(morgan('common'));
 // `/recipes`, we'll route them to the express
 // router instances we've imported. Remember,
 // these router instances act as modular, mini-express apps.
-app.use('/posts', blogPostsRouter);
+app.use('/blogposts', blogPostsRouter);
 
 // both runServer and closeServer need to access the same
 // server object, so we declare `server` here, and then when
